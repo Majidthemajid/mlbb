@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+#myvid{
+   position: fixed;
+   z-index: -1;
+   left: -70px;
+   top: -100px;
+   
+}
+form{
+   margin-top: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 1rem;
+   border: solid 2px #8F92AD;
+   backdrop-filter: blur(12px);
+}
+input{
+   width: 100%;
+   padding: 12px 0;
+   margin: 12px 0;
+   border-radius: 1rem;
+   border:none;
+   outline: none;
+   
+   
+}
+h1{
+   color: #D7D8E6;
+   text-align: center;
+}
+label{
+   color: #D7D8E6 ;
+}
+button{
+   background: none;
+   padding: 12px;
+   margin: 8px 0;
+   width: 200px;
+   border: solid #D7D8E6 2px;
+   color: #D7D8E6;
+   border-radius: 1rem;
+}
